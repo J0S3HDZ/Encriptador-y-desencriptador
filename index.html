@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Challenge 1 | Encripta y Desencripta</title>
+        <meta charset="UTF-8" lang="es">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <link rel="icon" href="fav2.ico?v=2" type="image/x-icon" />
+    </head>
+    <body>
+        <img class="logo" src="img/logo.png">
+        <textarea class="txa" type="text" id="txt" placeholder="Ingrese el texto..." ></textarea>
+        <span class="help"><i class="bi bi-exclamation-circle-fill"></i>&nbsp;Solo letras minúsculas y sin acentos</span>
+
+        <div class="resp">
+        <button class="btn1" onclick="encriptar()">Encriptar</button>
+        <button class="btn2" onclick="desencriptar()">Desencriptar</button>
+        </div>
+        <div class="card">
+            <div class="box1" id="bx1">
+                <img id="l2" src="img/logo2.png">
+                <h2 id="tt">Ningún mensaje fue encontrado</h2>
+                <span class="ingresa">Ingresa el texto que desees encriptar o desencriptar.</span>
+            </div>
+            <div class="box2" id="bx2">
+                <textarea class="result" id="encriptado"    ></textarea>  
+                <button onclick="copiar()" id="btnH" hidden>Copiar</button>
+
+            </div><br>
+        </div>
+        <marquee class="notice">By JoseHDZ |
+            &copy;2022 |
+            <a target="_blank" class="n" href="mailto:josehdzoficial@gmail.com">E-mail</a> |
+            <a target="_blank" href="https://www.linkedin.com/in/jos%C3%A9-de-jes%C3%BAs-hern%C3%A1ndez-maga%C3%B1a-222a50195/" class="n">LinkedIn</a> |
+            <a target="_blank" href="https://www.instagram.com/josehdzmx" class="n">Instagram</a> |
+            <a target="_blank" href="https://github.com/J0S3HDZ" class="n">GitHub</a> |
+            <a target="_blank" href="https://codepen.io/your-work" class="n">Codepen</a> |
+            <a target="_blank" href="https://twitter.com/JoseHDZ_Oficial" class="n">Twitter</a> </marquee>
+    </body>
+    <script src="js/controladores.js">    
+    </script>
+</html>
