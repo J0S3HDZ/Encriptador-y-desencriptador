@@ -1,10 +1,6 @@
 <div style="width: 100%;">
         <img src="https://imgur.com/FDlzpae.png" style="display: block;margin: auto;">
-        <div class="bannerbtn">
-            <a class="b1" href="">HTML</a>
-            <a class="b2" href="">CSS</a>
-            <a class="b3" href="">JS</a>
-        </div>
+        <img src="https://www.seekpng.com/png/full/855-8550591_html-css-javascript-icons.png" width="100px">
         <h1>
             Encriptador y Desencriptador
         </h1>
@@ -45,37 +41,3 @@
             </tr>
         </table>
     </div>
-<style>
-    a{
-        text-decoration: none;
-        color: white;
-        margin: 5px;
-        padding: 5px;
-    }
-    .b1{
-        background-color: orange;
-    }
-    .b2{
-        background-color: purple;
-    }
-    .b3{
-       background-color: green; 
-    }
-    .bannerbtn{
-        display: block;
-        margin: auto; 
-        text-align: center;
-        margin-top: 20px;
-    }
-    div,table{
-        color: white;
-    }
-    table{
-        text-align: center;
-    }
-    td{
-        min-width: 40px;
-        border: 1px solid white;
-    }
-    
-</style>
