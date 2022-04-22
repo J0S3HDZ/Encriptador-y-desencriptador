@@ -1,5 +1,5 @@
 <div style="width: 100%;">
-        <img src="https://imgur.com/FDlzpae.png" style="display: block;margin: auto;">
+        <img src="https://imgur.com/FDlzpae.png" style="display: block;margin: auto;"><br>
         <img src="https://www.seekpng.com/png/full/855-8550591_html-css-javascript-icons.png" width="100px">
         <h1>
             Encriptador y Desencriptador
