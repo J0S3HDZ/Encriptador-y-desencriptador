@@ -1,5 +1,12 @@
 function encriptar(){
     var x = document.getElementById('txt').value;
+
+    if(x.match(/[A-Z]/g)){
+        alert("Revisa el formato solicitado...");
+    }else if(x.match(/[0-9]/g)){
+        alert("Revisa el formato solicitado...");
+    }else{
+
     var res1 = "";
 
     for(var aux = 0;aux < x.length; aux++){
@@ -21,6 +28,7 @@ function encriptar(){
     document.getElementById("encriptado").innerHTML = res1;
     document.getElementById("tt").innerHTML = "";
     togle();
+    }
 }
 function desencriptar(){
     var txDes = document.getElementById('txt').value;
