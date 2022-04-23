@@ -1,9 +1,7 @@
 function encriptar(){
     var x = document.getElementById('txt').value;
 
-    if(x.match(/[A-Z]/g)){
-        alert("Revisa el formato solicitado...");
-    }else if(x.match(/[0-9]/g)){
+   if(!x.match(/[a-z\u00f1]/g) ){
         alert("Revisa el formato solicitado...");
     }else{
 
